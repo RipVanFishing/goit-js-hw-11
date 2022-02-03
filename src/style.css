@@ -6,15 +6,13 @@
 }
 
 .search-form > input {
-  height: 40px;
   margin-right: 10px;
   border: 2px solid black;
   border-radius: 8px;
   padding: 10px;
 }
 
-.search.btn {
-  height: 40px;
+.search-form button {
   border-radius: 8px;
   width: 120px;
 }
