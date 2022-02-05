@@ -25,7 +25,7 @@ function onSearch(e) {
     
     imageApiService.query = e.currentTarget.elements.searchQuery.value;
 
-    imageApiService.fetchImage();
+    
     
     if (imageApiService.query === "") {
         return errorOfFind();
